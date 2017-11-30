@@ -1,0 +1,85 @@
+html, body
+{
+    height:100%;
+}
+section
+{
+   height:80%; background-color:white;
+   display:flex;
+   
+}
+#box1, #box2
+{
+    height:100%;width:50%;border:1px solid;
+}
+article
+{
+    height:40%;width:40%;background-color:grey;
+}
+h2
+{
+    text-align:center;font-size:1.6em;color:white;text-shadow:4px 4px black;
+}
+li
+{
+    text-indent:25px;font-size:1.1em;color:white; text-shadow:3px 3px black;
+}
+#box1
+{
+    display:flex;flex-direction:column;
+    
+}
+#one, #two, #three, #four
+{
+    border:solid;height:50%;width:50%;margin:4% auto;
+}
+#one, #two, #three, #four
+{
+    margin-top:2.%;
+}
+#one
+{
+    border-style:solid double;height:50%;width:88%;
+    text-align:justify;font-size:1.1em;
+}
+#two
+{
+    border-style:solid double;height:50%;width:88%;
+    text-align:justify;font-size:1.1em;
+}
+#three
+{
+    border-style:solid;height:44%;width:88%;
+    
+    
+}
+#four
+{
+    border-style:solid;height:44%;width:88%;
+    
+}
+
+footer
+{
+    height:13%;background-color:grey;border-style:solid;
+    font-size: 1.7em;text-align:center;
+}
+h1
+{
+    font-size:2.0em;text-align:center;text-shadow:5px 5px black;color:white;
+}
+nav a:hover
+{
+    color:yellow;
+}
+#box1,#box2>article
+{
+    overflow:scroll;
+}
+@media only screen and (max-width:1030px)
+{
+h2
+{
+font-size:1.2em;
+}    
+}

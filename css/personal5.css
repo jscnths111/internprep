@@ -1,0 +1,60 @@
+html, body
+{
+    height:100%;margin:0;
+}
+
+section
+{
+   height:75%; background-color:grey;
+   display:flex;
+   
+}
+
+article
+{
+    height:50%;width:40%;
+}
+#box1, #box2
+{
+    display:flex;flex-direction:column;align-items:center;
+    border:solid;height:100%;width:50%;box-sizing:border-box;border-color:white;
+}
+
+#women, #men{
+    height:50%;width:100%;display:flex;flex-wrap:wrap;
+}
+#one
+{
+    border-style:solid;height:50%;width:80%;
+    box-sizing:border-box;border-color:white;
+    
+}
+#two
+{
+    border-style:solid;height:50%;width:80%;
+    box-sizing:border-box;border-color:white;
+    
+}
+#three, #four, #five, #six, #seven, #eight, #nine, #ten
+{
+    border-style:solid;height:50%;width:50%;
+    box-sizing:border-box;border-color:white;
+}
+
+footer
+{
+    height:auto;background-color:grey;border-style:solid;
+    font-size: 1.5em;box-sizing:border-box;border-color:white;
+}
+h2
+{
+    font-size:2em;text-align:center;text-shadow:5px 5px black;color:white;
+}
+p
+{
+  font-size:1.0em;text-shadow:2px 2px black;color:white;  
+}
+nav a:hover
+{
+    color:yellow;
+}
