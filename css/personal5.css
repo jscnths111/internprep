@@ -26,19 +26,19 @@ article
 #one
 {
     border-style:solid;height:50%;width:80%;
-    box-sizing:border-box;border-color:white;
+    box-sizing:border-box;border-color:black;background-color:white;
     
 }
 #two
 {
     border-style:solid;height:50%;width:80%;
-    box-sizing:border-box;border-color:white;
+    box-sizing:border-box;border-color:black;background-color:white;
     
 }
 #three, #four, #five, #six, #seven, #eight, #nine, #ten
 {
     border-style:solid;height:50%;width:50%;
-    box-sizing:border-box;border-color:white;
+    box-sizing:border-box;border-color:black;background-color:white;
 }
 
 footer
@@ -58,3 +58,13 @@ nav a:hover
 {
     color:yellow;
 }
+@media only screen and (max-width:576px)
+{
+ nav
+ {
+     font-size:1.4em;
+ }
+ }
+
+
+

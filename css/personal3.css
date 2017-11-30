@@ -37,12 +37,12 @@ p
 }
 footer
 {
-    height:13%;background-color:grey;border-style:solid;
+    height:13%;background-color:grey;border-style:solid;display:flex;align-items:center;justify-content:center;
     
 }
 h1
 {
-    font-size:3.5em;text-align:center;text-shadow:5px 5px black;color:white;
+    font-size:3.2em;text-align:center;text-shadow:5px 5px black;color:white;
 }
 nav a:hover
 {
@@ -59,3 +59,28 @@ h2
 font-size:1.6em;
 }    
 }
+@media only screen and (max-width:938px)
+{
+h1
+{
+    font-size:2.5em;
+}
+}
+@media only screen and (max-width:576px)
+{
+    section
+    {flex-direction:column;height:auto;}
+#box1
+{width:100%;height:auto;}
+#box1>article
+{overflow:visible;height:auto;}
+ nav
+ {
+     font-size:1.4em;
+ }
+ #box2
+ {justify-content:center;width:100%;}
+ #one{
+     height:300px;
+ }
+ }

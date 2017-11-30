@@ -22,7 +22,7 @@ h2
 }
 li
 {
-    text-indent:25px;font-size:1.1em;color:white; text-shadow:3px 3px black;
+    font-size:1.1em;color:white; text-shadow:3px 3px black;
 }
 #box1
 {
@@ -72,7 +72,7 @@ nav a:hover
 {
     color:yellow;
 }
-#box1,#box2>article
+#box1 > article
 {
     overflow:scroll;
 }
@@ -82,4 +82,15 @@ h2
 {
 font-size:1.2em;
 }    
+}
+@media only screen and (max-width:576px)
+{
+    section{flex-direction:column;height:auto;}
+    #box1{width:100%;overflow:visible;height:auto;}
+    #box2{width:100%;overflow:visible;height:auto;}
+    h1{font-size:1.5em;}
+     nav
+     {
+     font-size:1.4em;
+ }
 }
