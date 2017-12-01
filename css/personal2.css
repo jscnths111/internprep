@@ -28,11 +28,11 @@ nav a:hover
     color:yellow;
 }
 
-@media only screen and (max-width:913px)
+@media only screen and (max-width:908px)
 {
 h1
 {
-font-size:2em;
+font-size:2.4em;
 }    
 }
 @media only screen and (max-width:576px)
@@ -41,4 +41,7 @@ font-size:2em;
  {
      font-size:1.4em;
  }
- }
+ h1
+ {
+     font-size:1.4em;
+ }}

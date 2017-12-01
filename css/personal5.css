@@ -52,7 +52,7 @@ h2
 }
 p
 {
-  font-size:1.0em;text-shadow:2px 2px black;color:white;  
+  font-size:1.0em;text-shadow:2px 2px black;color:white;text-align:center; 
 }
 nav a:hover
 {
@@ -64,6 +64,8 @@ nav a:hover
  {
      font-size:1.4em;
  }
+ h2
+ {font-size:1.3em;}
  }
 
 
