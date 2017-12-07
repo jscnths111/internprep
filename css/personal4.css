@@ -40,12 +40,12 @@ li
 #one
 {
     border-style:solid double;height:50%;width:88%;
-    text-align:justify;font-size:1.1em;
+    text-align:left;font-size:1.1em;
 }
 #two
 {
     border-style:solid double;height:50%;width:88%;
-    text-align:justify;font-size:1.1em;
+    text-align:left;font-size:1.1em;
 }
 #three
 {
@@ -94,3 +94,5 @@ font-size:1.2em;
      font-size:1.4em;
  }
  }
+ h2:hover
+ {color:yellow;}
